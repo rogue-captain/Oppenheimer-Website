@@ -1,0 +1,121 @@
+<!-- 
+Name: Sully Erkan-Rijos
+
+Lab: 5
+ 
+Description:
+This program / website is a simple HTML / CSS program that showcases the Oscar Nominee movie: OPPENHEIMER.
+It utilizes user interaction and some simple animation for the header image and header title. Also has images 
+and all images and their titles are links to other sites with relative info. There is also a simple form on 
+the bottom table to collect opinions and have it e-mailed.
+-->
+
+<html lang="en-US">
+
+ <head>
+ 
+	<meta charset="UTF-8">
+ 
+	<link href="SERLab5.css" text="text/css" rel="stylesheet">
+ 
+ </head>
+ 
+ 
+ 
+ <body>
+ <div id="header" >
+               
+                <h1 style="color: red;"> Oscar Nominee: Oppenheimer </h1>
+              
+				<p style="color: red;"> Sully Erkan-Rijos --- CST 131 --- Lab:5 </p>
+
+</div> <!--header-->
+
+<br>
+
+<CENTER>
+    <table id="headerTable">
+        <tr>
+            <td>
+                <img src="OppenheimerCoverPic.jpg" alt="Oops"> 
+            </td>
+        </tr>
+		
+		<tr>
+		    <td style="height: 100px;">
+                <h2> <strong> "Now I have become death, the destroyer of worlds." - J.Robert Oppenheimer </strong> </h2>
+            </td>
+		</tr>
+    </table>
+</CENTER>
+
+<br>
+
+
+
+<div id="main"> <!-- MAIN -->
+
+<table id="trailerTable">
+
+<th> OPPENHEIMER </th>
+
+<tr>
+<td> <iframe width="560" height="315" src="https://www.youtube.com/embed/uYPbbksJxIg?si=EFUsNnbzOLB4im2m" title="YouTube video player" frameborder="0" allow="accelerometer; 
+	autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </td>
+</tr>
+
+<tr>
+<td> WATCH THE TRAILER ! </td>
+</tr>
+
+</table>
+
+
+<br>
+
+<table id="table2">
+	<th colspan="2"> Star Cast </th>
+	
+	<tr>
+		<td> <a href="https://en.wikipedia.org/wiki/Cillian_Murphy" title="Click to learn more about Cillian Murphy"> Cillian Murphy as Robert Oppenheimer </a> </td>
+		<td> <a href="https://en.wikipedia.org/wiki/Florence_Pugh" title="Click to learn more about Florence Pugh"> Florence Pugh as  Jean Tatlock </a> </td>
+	</tr>
+	
+    <tr>
+        <td>  <a href="https://www.britannica.com/biography/J-Robert-Oppenheimer"> <img src="table2.Cillian_Murphy.jpg" alt="Cillian Murphy" title="Click for info on Oppenheimer"> </a> </td>
+        <td>  <a href="https://www.britannica.com/biography/Jean-Tatlock"> <img src="table2.Florence_Pugh.jpg" alt="Florence Pugh" title="Click for info on Tatlock"> </a> </td>
+    </tr>
+	
+	<tr>
+		<td> <a href="https://en.wikipedia.org/wiki/Robert_Downey_Jr." title="Click to learn more about Robert Downey Jr."> Robert Downey Jr. as Lewis Strauss </a> </td>
+		<td> <a href="https://en.wikipedia.org/wiki/Matt_Damon" title="Click to learn more about Matt Damon"> Matt Damon as Gen. Leslie Groves </a> </td>
+	</tr>
+	
+    <tr>
+        <td> <a href="https://www.britannica.com/biography/Lewis-Strauss"> <img src="table2.Robert_Downey_Jr.jpg" alt="Robert Downey Jr." title="Click for info on Strauss"></td>
+        <td> <a href="https://ahf.nuclearmuseum.org/ahf/profile/leslie-r-groves/"> <img src="table2.Matt_Damon.jpg" alt="Matt Damon" title="Click for info on Gen. Groves"></td>
+    </tr>
+</table>
+
+<br>
+
+
+<table id="table3">
+
+<th> Send me your personal opinion ! </th>
+
+<tr>
+	<td>
+		<form action="mailto:mr.suleyman.erkan@gmail.com" method="post">
+			<input type="text" name="comments" placeholder="Comments here">
+			<input type="submit" value="Submit">
+		</form>
+	</td>
+</tr>
+</table>
+
+</div> <!--Main-->
+
+</body>
+ 
+ </html>
